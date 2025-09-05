@@ -14,7 +14,7 @@ const Card = ({data}) => {
       </div>
       <div className="footer">
         <div className="language-tag">
-          <div className="color" style={{backgroundColor:colorCodes[data.language]}}>&nbsp;</div>
+          <div className="color" style={{backgroundColor:colorCodes[data.language]?colorCodes[data.language]:"white"}}>&nbsp;</div>
           <span>{data.language}</span>
         </div>
         <div className='footer-tags'>

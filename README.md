@@ -1,5 +1,9 @@
 # GitHub Random Repository
 
+Random repository finder made using ReactJS
+
+Project URL: https://roadmap.sh/projects/github-random-repo
+
 ## Preview
 
 ### Default
@@ -13,7 +17,3 @@
 
 ### Loaded
 <img src="src/assets/loaded.png" width="500px" height="500px">
-
-Random repository finder made using ReactJS
-
-Project URL: https://roadmap.sh/projects/github-random-repo
