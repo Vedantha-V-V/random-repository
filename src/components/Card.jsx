@@ -3,11 +3,12 @@ import { colorCodes } from '../constants'
 import './Card.css'
 
 const Card = ({data}) => {
+  console.log(data)
   return (
     <div className="card">
       <div className="heading">
         <span>{data.name}</span>
-        <a href={data.homepage?data.homepage:'/'}><img src={pointer} alt="pointer" width={20} height={20}/></a>
+        <a href={data.html_url}><img src={pointer} alt="pointer" width={20} height={20}/></a>
       </div>
       <div className="content">
         <span>{data.description.substring(0,100)}..</span>
