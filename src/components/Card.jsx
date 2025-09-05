@@ -7,7 +7,7 @@ const Card = ({data}) => {
     <div className="card">
       <div className="heading">
         <span>{data.name}</span>
-        <a href={data.homepage} target='_blank'><img src={pointer} alt="pointer" width={20} height={20}/></a>
+        <a href={data.homepage?data.homepage:'/'}><img src={pointer} alt="pointer" width={20} height={20}/></a>
       </div>
       <div className="content">
         <span>{data.description.substring(0,100)}..</span>
