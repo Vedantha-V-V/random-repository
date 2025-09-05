@@ -26,7 +26,7 @@ const Card = ({data}) => {
           <span>{data.forks}</span>
         </div>
         <div className='footer-tags'>
-          <img src={error} width={20} height={20}/>
+          <img src="src\assets\error.svg" width={20} height={20}/>
           <span>{data.open_issues_count}</span>
         </div>
       </div>
