@@ -57,7 +57,7 @@ const App = () => {
   }
   return (<div className="container">
     <div className="header">
-      <img src='./assets/github.svg' alt='Github'/>
+      <img src='./github.svg' alt='Github'/>
       <p>GitHub Repository Finder</p>
     </div>
     <div className='search'>
