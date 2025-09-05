@@ -92,3 +92,9 @@
   border-bottom-right-radius: 5px;
   border: none;  
 }
+
+@media (prefers-color-scheme: dark) {
+  .dropdown-content{
+    color:black;
+  }
+}

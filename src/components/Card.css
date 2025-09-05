@@ -82,3 +82,12 @@
     height:150px;
     width:100%;
 }
+
+@media (prefers-color-scheme: dark) {
+  .default p{
+    color:black;
+  }
+  .loader p{
+    color:black;
+  }
+}
