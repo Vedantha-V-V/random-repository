@@ -3,7 +3,6 @@ import { colorCodes } from '../constants'
 import './Card.css'
 
 const Card = ({data}) => {
-  console.log(data)
   return (
     <div className="card">
       <div className="heading">
