@@ -1,4 +1,4 @@
-import { pointer } from '../assets'
+import { pointer,fork,star,error } from '../assets'
 import { colorCodes } from '../constants'
 import './Card.css'
 
@@ -18,15 +18,15 @@ const Card = ({data}) => {
           <span>{data.language}</span>
         </div>
         <div className='footer-tags'>
-          <img src='src/assets/star.svg' width={20} height={20}/>
+          <img src={star} width={20} height={20}/>
           <span>{data.stargazers_count}</span>
         </div>
         <div className='footer-tags'>
-          <img src='src/assets/fork.svg' width={20} height={20}/>
+          <img src={fork} width={20} height={20}/>
           <span>{data.forks}</span>
         </div>
         <div className='footer-tags'>
-          <img src='src/assets/error.svg' width={20} height={20}/>
+          <img src={error} width={20} height={20}/>
           <span>{data.open_issues_count}</span>
         </div>
       </div>
