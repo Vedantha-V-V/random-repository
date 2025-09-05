@@ -3,7 +3,7 @@
 ## Preview
 
 ### Default
-<img src="src/assets/default.png" width="100px" height="100px">
+<img src="src/assets/default.png" width="500px" height="500px">
 
 ### Loading
 <img src="src/assets/loading.png">
